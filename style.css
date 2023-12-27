@@ -1,0 +1,39 @@
+/* INDEX */
+@import url(./styles/index.css);
+
+/* PAGES */
+@import url(./styles/about.css);
+@import url(./styles/book.css);
+@import url(./styles/contacts.css);
+@import url(./styles/locations.css);
+@import url(./styles/login.css);
+@import url(./styles/pricing.css);
+@import url(./styles/sign-up.css);
+
+@import url(./styles/location.css);
+
+
+/* COMPONENTS */
+@import url(./styles/components/header.css);
+@import url(./styles/components/slogan.css);
+@import url(./styles/components/footer.css);
+
+
+:root {
+    --color-green:#4A6741;
+    --color-brown: #4e3b32;
+}
+
+body {
+    background-color: #eee;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: 0;
+}
+
+
+

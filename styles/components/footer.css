@@ -1,0 +1,26 @@
+footer, .footer-nav, .footer-social {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    margin: 1.5rem 0;
+}
+
+.footer-nav {
+    font-size: 18px;
+    font-weight: 800;
+    padding: 20px;
+}
+
+.footer-nav a {
+    color: var(--color-brown);
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+.footer-svg-wrapper a {
+    padding: 15px;
+}

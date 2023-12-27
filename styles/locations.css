@@ -1,0 +1,10 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+    gap: 10px; /* Gap between grid items */
+    /* Additional styling */
+    width: 80%;
+    margin: 20px auto;
+    background-color: #3498db;
+  }
+  

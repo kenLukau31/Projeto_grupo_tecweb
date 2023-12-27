@@ -1,0 +1,51 @@
+
+header {
+    /* background-color: pink; */
+
+    color: var(--color-brown);
+    font-size: 18px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+    width: 80%;
+    margin: auto;
+    padding:25px;
+}
+
+.header-wrapper, .header-navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-logo {
+    width: 50px;
+}
+
+.header-title {
+    color: var(--color-brown);
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.navbar-link {
+    color: var(--color-green);
+}
+
+.navbar-link.login {
+    color: var(--color-green);
+    border: 1px solid var(--color-green);
+    padding: 10px 20px;
+    border-radius: 12px;
+}
+
+.navbar-link.signup {
+    color: #fff;
+    background-color: var(--color-green);
+    padding: 10px 20px;
+    border-radius: 12px;
+}
