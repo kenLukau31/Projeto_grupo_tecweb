@@ -1,0 +1,12 @@
+.book-form{
+    background-color: white;
+    margin: 100px auto;
+    padding: 40px;
+    width: 70%;
+    min-width: 300px;
+    border: 2px solid black;
+}
+
+.tab {
+    display: none;
+  }

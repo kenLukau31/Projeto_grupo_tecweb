@@ -8,6 +8,11 @@
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
     </style>
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../styles/book.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 </head>
 <body>
     <!-- NAVBAR -->
@@ -26,18 +31,246 @@
         </nav>
     </header>
 
+    <main>
+        <form action="" class="book-form">
+            <h1>Book Now!</h1>
+            <!--Primeira Tab-->
+            <div class="tab">How many people are going?
+                <label for="adults">How many adults?</label><h6>People above the age of 13</h6><input type="number" name="adults" id="adults" min="0" max = '8'>
+                <label for="children">How many children?</label><h6>People between 2-13 years old</h6><input type="number" name="children" id="children" min="0" max="8">
+                <label for="infants">How many infants?</label><h6>People less than 2 years old</h6><input type="number" name="infants" id="infants" min="0" max="8">
+            </div>
+
+            <!--Segunda Tab-->
+            <div class="tab">When are you planning to?
+                <label for="start_date">From:</label><input type="date" name="start_date" id="start_date">
+                <label for="end_date">To:</label><input type="date" name="end_date" id="end_date">
+            </div>
+
+            <!--Terceira Tab-->
+            <div class="tab">Where are you planning to go?
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 col-12">
+                        <div class="card" style='width: 300px'>
+                            <img src="#" alt="It's an image of ..." class="card-img-top">
+                            <div class="card-body">
+                                <div class="form-check">
+                                    <label for="location1" class="form-check-label">Location 1</label>
+                                    <input type="radio" class="form-check-input" name="optradio" id="location1">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12">
+                        <div class="card" style='width: 300px'>
+                            <img src="#" alt="It's an image of ..." class="card-img-top">
+                            <div class="card-body">
+                                <div class="form-check">
+                                    <label for="location2" class="form-check-label">Location 2</label>
+                                    <input type="radio" class="form-check-input" name="optradio" id="location2">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12">
+                        <div class="card" style='width: 300px'>
+                            <img src="#" alt="It's an image of ..." class="card-img-top">
+                            <div class="card-body">
+                                <div class="form-check">
+                                    <label for="location3" class="form-check-label">Location 3</label>
+                                    <input type="radio" class="form-check-input" name="optradio" id="location3">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 col-12">
+                        <div class="card" style='width: 300px'>
+                            <img src="#" alt="It's an image of ..." class="card-img-top">
+                            <div class="card-body">
+                                <div class="form-check">
+                                    <label for="location4" class="form-check-label">Location 4</label>
+                                    <input type="radio" class="form-check-input" name="optradio" id="location4">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12">
+                        <div class="card" style='width: 300px'>
+                            <img src="#" alt="It's an image of ..." class="card-img-top">
+                            <div class="card-body">
+                                <div class="form-check">
+                                    <label for="location5" class="form-check-label">Location 5</label>
+                                    <input type="radio" class="form-check-input" name="optradio" id="location5">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Quarta Tab-->
+            <div class="tab">Tents and additions
+                <h2>Tents</h2>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 col-12">
+                        <div class="card" style='width: 300px'>
+                            <img src="#" alt="It's an image of ..." class="card-img-top">
+                            <div class="card-body">
+                                <label for="tent1" class="card-title">Tent 1:</label>
+                                <div class="form-check">
+                                    <label for="tent1" class="form-check-label">Tent 1</label>
+                                    <input type="radio" class="form-check-input" name="optradio" id="tent1">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12">
+                        <div class="card" style='width: 300px'>
+                            <img src="#" alt="It's an image of ..." class="card-img-top">
+                            <div class="card-body">
+                                <div class="form-check">
+                                    <label for="tent2" class="form-check-label">Tent 2</label>
+                                    <input type="radio" class="form-check-input" name="optradio" id="tent2">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12">
+                        <div class="card" style='width: 300px'>
+                            <img src="#" alt="It's an image of ..." class="card-img-top">
+                            <div class="card-body">
+                                <div class="form-check">
+                                    <label for="tent3" class="form-check-label">Tent </label>
+                                    <input type="radio" class="form-check-input" name="optradio" id="tent3">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2>Additions:</h2>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 col-12">
+                        <div class="card" style='width: 300px'>
+                            <img src="#" alt="It's an image of ..." class="card-img-top">
+                            <div class="card-body">
+                                <div class="form-check">
+                                    <label for="addition 1" class="form-check-label">Addition 1</label>
+                                    <input type="checkbox" class="form-check-input" name="addition1" id="addition 1">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12">
+                        <div class="card" style='width: 300px'>
+                            <img src="#" alt="It's an image of ..." class="card-img-top">
+                            <div class="card-body">
+                                <div class="form-check">
+                                    <label for="addition2" class="form-check-label">Addition 2</label>
+                                    <input type="checkbox" class="form-check-input" name="addition2" id="addition2">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12">
+                        <div class="card" style='width: 300px'>
+                            <img src="#" alt="It's an image of ..." class="card-img-top">
+                            <div class="card-body">
+                                <div class="form-check">
+                                    <label for="addition3" class="form-check-label">Addition 3</label>
+                                    <input type="checkbox" class="form-check-input" name="addition3" id="addition3">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 col-12">
+                        <div class="card" style='width: 300px'>
+                            <img src="#" alt="It's an image of ..." class="card-img-top">
+                            <div class="card-body">
+                                <div class="form-check">
+                                    <label for="addition4" class="form-check-label">Addition 4</label>
+                                    <input type="checkbox" class="form-check-input" name="addition4" id="addition4">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12">
+                        <div class="card" style='width: 300px'>
+                            <img src="#" alt="It's an image of ..." class="card-img-top">
+                            <div class="card-body">
+                                <div class="form-check">
+                                    <label for="addition5" class="form-check-label">Addition 5</label>
+                                    <input type="checkbox" class="form-check-input" name="addition5" id="addition5">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12">
+                        <div class="card" style='width: 300px'>
+                            <img src="#" alt="It's an image of ..." class="card-img-top">
+                            <div class="card-body">
+                                <div class="form-check">
+                                    <label for="addition6" class="form-check-label">Addition 6</label>
+                                    <input type="checkbox" class="form-check-input" name="addition6" id="addition6">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Quinta Tab // Confirmar-->
+            <div class="tab">Form
+                <div class="row">
+                    <div class="col">
+                        <div class="form-floating">
+                            <input class="form-control" type="text" name="name" id="name" placeholder="Enter Name" required>
+                            <label for="name">Name</label>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="form-floating">
+                            <input class="form-control" type="text" name="surname" id="surname" placeholder="Enter Surname" required>
+                            <label for="surname">Surname</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-floating">
+                    <input class="form-control" type="email" name="email" id="email" placeholder="Enter email" required>
+                    <label for="email">Email</label>
+                </div>
+
+                <div class="form-floating">
+                    <input class="form-control" type="tel" name="number" id="number" placeholder="Enter phone number">
+                    <label for="number">Phone Number</label>
+                </div>
+
+                <div class="form-floating">
+                    <textarea class="form-control" style="resize: none;" name="comment" placeholder="Leave a comment" id="comment" cols="30" rows="10"></textarea>
+                    <label for="comment">Comments</label>
+                </div>
+            </div>
+            <!--Botões para proseguir e voltar atrás no formulário-->
+            <div style="overflow:auto;">
+                <div style="float:right;">
+                    <button type="button" id = 'prevBtn' onclick="nextPrev(-1)">Previous</button>
+                    <button type="button" id = 'nextBtn' onclick="nextPrev(1)">Next</button>
+                </div>
+            </div>
+        
+            <div class="progress">
+                <div class="progress-bar bg-success" style="width:10%"></div>
+            </div>
+        </form>
 
 
-    <!--  -->
 
-
-
-
-
-
-
-    
-
+    </main>
 
     <!-- SLOGAN -->
     <div class="slogan">
@@ -77,5 +310,7 @@
             </div>
         </div>
     </footer>
+    <script src="../scripts.js"></script>
+
 </body>
 </html>
