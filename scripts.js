@@ -52,14 +52,9 @@ function validate_form(){
         //Loop for que vai passar por todos os inputs e verificar se estão vazios e/ou inválidos
         if (y[i].value == ''){ //Se um input tiver vazio
             y[i].className += 'invalid';
-            window.alert('Error')
             return invalid
             //Fica inválido
         }
     }
     return valid
-}
-
-function update_progress_bar(){
-    
 }
