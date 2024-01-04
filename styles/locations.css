@@ -1,10 +1,16 @@
-.grid-container {
+.locations-grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
-    gap: 10px; /* Gap between grid items */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    
+    gap: 80px; /* Gap between grid items */
     /* Additional styling */
-    width: 80%;
-    margin: 20px auto;
-    background-color: #3498db;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+  }
+
+  .locations-grid-card {
+    border: 1px solid var(--color-green);
+    margin: 10%;
   }
   
