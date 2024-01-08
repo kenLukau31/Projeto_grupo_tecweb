@@ -27,7 +27,7 @@ form h4{
 .tab{
     padding: 50px; /*Para haver mais espaçamento entro as tabs e o resto da página (principalmente entre a nav e o footer)*/
     display: none; /*Para se poder mostrar uma tab de cada vez e não aparecerem todas ao mesmo tempo */
-    
+
 }
 
 #book_now_form{
