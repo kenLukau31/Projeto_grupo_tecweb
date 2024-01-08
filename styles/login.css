@@ -8,6 +8,7 @@
     background-size: cover;
   
 }
+
 .login_content{
 
     display: flex;
@@ -31,17 +32,19 @@
     flex-direction: column;
     margin-bottom: 25px;
     width: 100%;
+    gap: 5px;
 
  }
  .login_form_credential label{
-    margin-bottom: 5px;
+    
+    font-size:20px;
  }
 
 .login_form_credential input{
     border-radius: 5px;
     border:none;
     padding: 10px;
-    font-size: 12px;
+    font-size: 14px;
  }
 
  .login_form_btn{
@@ -50,6 +53,8 @@
     border: none;
     border-radius: 5px;
     margin-bottom: 15px;
+    margin-top: 25px;
     background-color: #4A6741;
     font-size: large;
+    text-align: center;
  }
