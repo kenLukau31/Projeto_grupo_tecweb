@@ -9,9 +9,9 @@
 @import url(./styles/login.css);
 @import url(./styles/pricing.css);
 @import url(./styles/sign-up.css);
-
 @import url(./styles/location.css);
 
+@import url(./styles/location.css);
 
 /* COMPONENTS */
 @import url(./styles/components/header.css);

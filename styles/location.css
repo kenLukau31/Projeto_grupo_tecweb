@@ -1,0 +1,16 @@
+.location-page {
+    padding: 20px 10%;
+    background-color: #fff;
+}
+
+.location-page-wrapper  {
+    display: flex;
+}
+
+.location-page-wrapper.links {
+    padding: 20px;
+}
+
+.location-page-wrapper.details {
+    padding: 20px;
+}
