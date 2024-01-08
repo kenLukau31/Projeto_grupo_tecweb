@@ -35,19 +35,21 @@
     gap: 5px;
 
  }
- .login_form_credential label{
+ .form_label{
     
     font-size:20px;
+    
  }
 
-.login_form_credential input{
+.form_input{
     border-radius: 5px;
     border:none;
     padding: 10px;
     font-size: 14px;
+    margin-top: 0px;
  }
 
- .login_form_btn{
+ .form_btn{
     width: 100%;
     height: 40px;
     border: none;
@@ -57,4 +59,5 @@
     background-color: #4A6741;
     font-size: large;
     text-align: center;
+    color: #fff;
  }
