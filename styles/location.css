@@ -6,11 +6,24 @@
 .location-page-wrapper  {
     display: flex;
 }
+.location-page-wrapper-links a{
+    color: #4A6741;
+}
 
-.location-page-wrapper.links {
+.location-page-wrapper-links{
+    padding: 20px;
+    gap: 2px;
+}
+
+.location-page-wrapper-details {
+    display: flex;
+    flex-direction: row;
     padding: 20px;
 }
 
-.location-page-wrapper.details {
-    padding: 20px;
+.location-page-wrapper-text{
+    display: flex;
+    flex-direction: column;
+
+
 }
