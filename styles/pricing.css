@@ -7,14 +7,14 @@ body{
 }
 
 h1{
-  font-size: 5rem;
+  font-size:3rem;
   color: var(--color-green);
   padding-bottom: 70px; /*Para haver mais espaçamento entre o título da página e o resto do contéudo da página*/
 }
 
 .title{
   text-align: start;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .section-line{
@@ -56,11 +56,11 @@ h1{
 }
 
 .service-camping{
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .service-prices{
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .add-service{
@@ -91,21 +91,21 @@ h1{
 }
 
 .tent-name{
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .tent-price{
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .content{
   text-align: left;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .view-more-tents{
   padding: 20px 40px;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 600;
   color: white;
   background-color: var(--color-green);
@@ -128,7 +128,7 @@ h1{
 }
 
 .addition-name{
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .view-more-additions{
