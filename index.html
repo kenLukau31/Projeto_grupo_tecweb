@@ -17,7 +17,7 @@
     <!-- NAVBAR -->
     <header class="header">
         <div class="header-wrapper">
-            <img class="header-logo" src="." alt="weCAMP logo">
+            <img class="header-logo" src="" alt="weCAMP logo">
             <a class="header-title" href="./index.html">weCAMP</a>
         </div>
         <nav class="header-navbar">
@@ -29,6 +29,28 @@
             <a class="navbar-link signup" href="./pages/sign-up.html">Sign Up</a>
         </nav>
     </header>
+
+    <!-- PHONE NAVBAR -->
+    <div class="phone">
+        <div class="mobile-container">
+            <div class="topnav">
+                <a href="./index.html" class="active">weCAMP</a>
+                <div id="myLinks">
+                    <a href="#news">Book Now</a>
+                    <a href="#news">Locations</a>
+                    <a href="#contact">Pricing</a>
+                    <a href="#about">About</a>
+                    <a href="#about">Contacts</a>
+                    <a href="#about">Login</a>
+                    <a href="#about">Sign Up</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fafa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
 
     <!-- MAIN -->
     <section class="main">
@@ -68,10 +90,8 @@
          </div>
          
          <div class="main-link-wrapper">
-            <button class="main-link-book" type="button">
-                <a href="./pages/book.html">BOOK NOW</a>
-            </button>
-            <p class="main-btn-p">
+            <a class="main-link-book" href="./pages/book.html">BOOK NOW</a>
+            <p class="main-link-paragraph">
                 Book your next escapade today and let the wilderness awaken your spirit of adventure! 
             </p>
         </div>
@@ -223,7 +243,7 @@
         </div>
     </footer>
 
-
+    <script src="./java.script/phone-navbar.js"></script>
 </body>
 </html>
 
