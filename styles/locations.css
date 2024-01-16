@@ -1,16 +1,36 @@
 .locations-grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    
-    gap: 80px; /* Gap between grid items */
-    /* Additional styling */
-    width: 100%;
+    gap: 50px;
+    width: 90%;
     margin: 0 auto;
-    background-color: #fff;
   }
 
   .locations-grid-card {
     border: 1px solid var(--color-green);
     margin: 10%;
+    width: fit-content;
   }
-  
+
+  .card-image {
+    margin: 20px;
+    width: 250px;
+  }
+
+  .card_text {
+    padding: 40px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: var(--color-green);
+  }
+
+  .card_title {
+    font-size: 30px;
+    padding: 10px;
+    color: var(--color-green);
+  }
+
+  .card_btn {
+    color: var(--color-green);
+    font-size: 20px;
+  }

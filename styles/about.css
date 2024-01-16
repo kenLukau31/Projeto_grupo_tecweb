@@ -1,7 +1,6 @@
 .about-body{
     background-color: #fff;
-    padding: 10px 50px;
-    border-radius: 30px;
+    padding: 50px 120px;
     flex-direction: row;
     align-items: center;
     gap: 100px;
@@ -9,7 +8,6 @@
     line-height: 40px;
     font-size: 1.2rem;
     font-weight: 800;
-    
     background-color: #fff;
   }
 
