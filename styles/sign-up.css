@@ -4,6 +4,7 @@
     flex-direction: column;
     align-items: center;
     border-radius: 15px;
+    margin: 0px;
     width: 100%;
     padding: 20px ;
     height: auto;
@@ -27,6 +28,7 @@
 .sign_form_credential{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     margin-bottom: 25px;
     width: 100%;
     gap: 5px;
@@ -40,6 +42,28 @@
     width: inherit;
  }
 
- 
+ .sign_form_credential_input{
+    border-radius: 5px;
+    border:none;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 0px;
+ }
+ /* For tablet  */
+ @media only screen and (max-width: 768px){
+    .sign_content{ width:80% ;}
+    .sign_form_credential_wrapper { 
+        width:100% ;
+    
+    }
+    .sign_form_credential_input{
+        width:80% ;
+        padding: 10px;
+        font-size: 14px;
+       
+     }
+   
+
+}
  
  
