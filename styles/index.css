@@ -23,7 +23,7 @@
     width: 90%;
     height: 55vw;
     position: absolute;
-    border-radius: 40px;
+    border-radius: 30px;
 }
 
 .main-book-now {
@@ -66,7 +66,7 @@
 .main-link-wrapper {
     position: relative;
     font-size: 1.5rem;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .main-link-book {
@@ -84,15 +84,16 @@
 }
 
 .main-link-paragraph {
-   margin-top: 100px;
-    color: var(--color-green);
+    margin-top: 50px;
+    /* color: var(--color-green); */
     font-weight: 800;
     padding: 70px 100px;
+    background-color: #fff;
 }
 
 /* TOP SPOTS */
 .top-spots-title {
-    margin-top: -100px;
+    margin-top: 60px;
     font-size: 50px;
     color: var(--color-brown);
 }
@@ -129,29 +130,32 @@
 }
 
 .about-img {
-    width: 30vw;
-    height: 20vw;
+    width: 35vw;
+    height: 25vw;
     border-radius: 20px;
 }
 
 .homepage-about-text {
     color: #fff;
     font-weight: 500;
-    padding: 10px 30px;
+    margin-top: -50px;
+    padding: 10px 10px;
     border-radius: 30px;
 }
 
 .homepage-about-p{
     margin: 0;
+    padding-bottom: 20px;
+    
 }
 
 .btn-our-story {
-    color: #fff;
-    padding: 10px 20px;
+    color: var(--color-brown);
+    padding: 10px 60px;
     border-radius: 30px;
-    font-size: px;
+    font-size: 16px;
     font-weight: 800;
-    background-color: var(--color-brown);
+    background-color: #fff;
 }
 
 /* REVIEWS */
@@ -207,6 +211,7 @@
 
     .main-p{
         margin-top: 100px;
+        font-size: 16px;
     }
 
     .main-book-now {
@@ -215,30 +220,32 @@
     }
     .main-book-img {
         margin-top: 20px;
-        width: 90%;
-        border-radius: 30px;
+        width: 70%;
+        border-radius: 20px;
     }
     .main-book-card {
         display: flex;
         flex-direction: column;
     }
     .main-book-text{
-        font-size: 1rem;
-        padding: 20px 50px;
+        font-size: 0.9rem;
+        padding: 10px 20px;
     }
     .main-link-book{
-        width: 95%;
+        font-size: 18px;
+        border-radius: 18px;
+        padding: 20px 30px;
     }
     .main-link-paragraph{
-        font-size: 1.6rem;
-        padding: 50px 100px;
+        font-size: 1.3rem;
+        padding: 50px 30%;
         background-color: #fff;
         color: var(--color-green);
     }
 
 
     .top-spots {
-        margin-top: 74rem;
+        margin-top: 65rem;
     }
     .top-spots-title{
         margin-top: -30px;
@@ -275,14 +282,14 @@
         padding-bottom: 30px;
         margin-bottom: 20px;
     }
+    .homepage-about-p {
+        padding-bottom: 20px;
+    }
     .btn-our-story{
         color: #eee;
         background-color: var(--color-green);
     }
-    .homepage-about-p {
-        padding-bottom: 20px;
-    }
-
+    
 
     .reviews{
         display: flex;

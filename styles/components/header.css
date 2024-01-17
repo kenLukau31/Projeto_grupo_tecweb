@@ -1,7 +1,5 @@
 
 header {
-    /* background-color: pink; */
-
     color: var(--color-brown);
     font-size: 18px;
       
@@ -56,7 +54,6 @@ header {
 
 @media only screen and (max-width: 768px) {
     .header{
-        margin: 0;
         display: none;
     }
     
@@ -68,47 +65,49 @@ header {
         font-family: 'Roboto', sans-serif;
     }
 
-    .mobile-container {
-        max-width: 100%;
-        margin: auto;
+    .phone-container {
+        width: 106%;
+        /* margin: auto; */
+        margin-top:-100px;
         background-color: var(--color-green);
       }
       
-      .topnav {
+      .top-nav {
         overflow: hidden;
         background-color: var(--color-green);
         position: relative;
       }
       
-      .topnav #myLinks {
+      .top-nav #phone-links {
         display: none;
-        background-color: #eee;
-        color: var(--color-green);
+        background-color: #ccc;
       }
-      
-      .topnav a {
-        color: white;
+
+      .top-nav a {
+        color: var(--color-green);
         padding: 14px 16px;
         text-decoration: none;
         font-size: 17px;
         display: block;
       }
+
+      .top-nav .logo {
+        color: #fff;
+      }
       
-      .topnav a.icon {
-        padding: 30px;
-        background: pink;
+      .top-nav a.icon {
+        padding:14px 20px;
+        background: #ccc;
         display: block;
         position: absolute;
         right: 0;
         top: 0;
       }
       
-      .active {
+      .logo {
         background-color: var(--color-green);
         color: white;
       }
-
-
 
 
 }

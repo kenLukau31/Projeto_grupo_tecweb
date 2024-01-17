@@ -1,8 +1,8 @@
-function myFunction() {
-    var x = document.getElementById("myLinks");
+function phone_navbar() {
+    var x = document.getElementById("phone-links");
     if (x.style.display === "block") {
-      x.style.display = "none";
+      x.style.display = "none"; //Links escondidos
     } else {
-      x.style.display = "block";
+      x.style.display = "block"; //Links visíveis
 }
 }
