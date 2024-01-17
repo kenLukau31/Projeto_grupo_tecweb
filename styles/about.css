@@ -14,6 +14,7 @@
   .about-body-heading {
     font-size: 2rem;
     font-weight: 800;
+    margin-top: 40px;
     padding: 40px 0;
     color: var(--color-brown);
   }
