@@ -7,6 +7,7 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
     </style>
+    <script src="/java.script/login.js"></script>
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
@@ -49,7 +50,7 @@
 
     <!--LOGIN FORM-->
     <div class="form_box">
-        <form class=" login_form">
+        <form class=" login_form" id="login_form" name="login_form" onsubmit="login_form_upValidate()">
             
             <div class="login_content">
                 <div class=" login_form_text">
@@ -58,20 +59,20 @@
                 </div>
             
                 <div class=" login_form_credential">
-                    <label for="email" class="form_label"> E-mail</E-mail></label>
-                    <input type="email" placeholder="Write here..." name="email" class="form_input" required>
+                    <label for="email" class="form_label"> E-mail</label>
+                    <input type="email" placeholder="Write here..." name="email" class="form_input" value="email"  required>
                     
                 </div>
 
                 <div class=" login_form_credential">
                     <label for="password" class="form_label">Password</label>
-                    <input type="password" placeholder="Write here... " name="password" class="form_input" required>
+                    <input type="password" placeholder="Write here... " name="password" class="form_input" value="password"  required>
             
                 </div>
                 
-                <a href="">Forgot password?</a>
+                <a href="" onclick="forgotpassword()">Forgot password?</a>
 
-                <button type="submit"  class="form_btn" > Login </button>
+                <button type="submit"  class="form_btn" value="submit"> Login </button>
 
                
                 <div class="login_form_link">
