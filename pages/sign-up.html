@@ -8,6 +8,8 @@
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
     </style>
     <script src="/java.script/signup.js"></script>
+    <!-- get the username -->
+    <script src="/java.script/login.js"></script> 
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
@@ -50,7 +52,7 @@
 
     <!--sign up_form -->
     <section class="form_box">
-        <form class=" sign_form">
+        <form class=" sign_form" name="sign_form" onsubmit="sign_form_upValidate()">
             
             <div >
                
@@ -63,18 +65,18 @@
 
                         <div class=" sign_form_credential">
                             <label for="Fname" class="form_label"> First Name</label>
-                            <input type="text" placeholder="Write here..." name="Fname" class="sign_form_credential_input" required>
+                            <input type="text" placeholder="Write here..." name="Fname" class="sign_form_credential_input" id="Fname" required>
                         </div>
 
                         <div class=" sign_form_credential">
                             <label for="Lname" class="form_label"> Last Name</label>
-                            <input type="text" placeholder="Write here..." name="Lname" class="sign_form_credential_input" required>
+                            <input type="text" placeholder="Write here..." name="Lname" class="sign_form_credential_input" id="Lname" required>
                         </div>
                     </div>
 
                     <div class=" sign_form_credential">
                         <label for="email" class="form_label"> E-mail</label>
-                        <input type="email" placeholder="Write here..." name="email" class="form_input"  required>
+                        <input type="email" placeholder="Write here..." name="email" class="form_input" id="email" required>
                         
                     </div>
 
@@ -93,7 +95,7 @@
                     <div class=" sign_form_credential_wrapper">
                         <div class=" sign_form_credential">
                             <label for="ZIPcode" class="form_label">ZIP Code</label>
-                            <input type="text" placeholder="Write here..." name="ZIPcode" class="sign_form_credential_input required">
+                            <input type="text" placeholder="Write here..."  name="ZIPcode" class="sign_form_credential_input" required>
                         </div>
 
                         <div class=" sign_form_credential">
