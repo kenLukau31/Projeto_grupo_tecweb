@@ -63,6 +63,7 @@ header {
         width: 95%;
         z-index: 1;
         font-family: 'Roboto', sans-serif;
+        top:0;
     }
 
     .phone-container {
@@ -72,42 +73,42 @@ header {
         background-color: var(--color-green);
       }
       
-      .top-nav {
-        overflow: hidden;
-        background-color: var(--color-green);
-        position: relative;
+    .top-nav {
+      overflow: hidden;
+      background-color: var(--color-green);
+      position: relative;
       }
       
-      .top-nav #phone-links {
-        display: none;
-        background-color: #ccc;
-      }
+    .top-nav #phone-links {
+      display: none;
+      background-color: #ccc;
+    }
 
-      .top-nav a {
-        color: var(--color-green);
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        display: block;
-      }
+    .top-nav a {
+      color: var(--color-green);
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      display: block;
+    }
 
-      .top-nav .logo {
-        color: #fff;
-      }
+    .top-nav .logo {
+      color: #fff;
+    }
       
-      .top-nav a.icon {
-        padding:14px 20px;
-        background: #ccc;
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
-      }
+    .top-nav a.icon {
+      padding:14px 20px;
+      background: #ccc;
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
       
-      .logo {
-        background-color: var(--color-green);
-        color: white;
-      }
+    .logo {
+      background-color: var(--color-green);
+      color: white;
+    }
 
 
 }
