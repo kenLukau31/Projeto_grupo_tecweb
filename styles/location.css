@@ -80,10 +80,13 @@
 
 /* For tablet  */
 @media only screen and (max-width: 768px){
+
+    .location-page-wrapper-links {
+        margin-top: 50px;
+    }
     .location-page-wrapper-description{
         display: flex;
         flex-direction: column;
-        
     }
 
     .location-page-wrapper-img{
