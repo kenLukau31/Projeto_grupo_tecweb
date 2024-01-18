@@ -109,6 +109,7 @@
     height: 15vw;
     width: 20vw;
     border-radius: 20px;
+    margin-bottom: 20px;
 }
 
 .top-more-details {
@@ -199,7 +200,6 @@
     height: 200px;
     border-radius: 20px;
 }
-
 
 
 /* Media Queries */
