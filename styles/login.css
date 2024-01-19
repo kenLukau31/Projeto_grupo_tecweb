@@ -23,6 +23,7 @@
     background: rgba(255, 255, 255, 0.5)
 }
  .login_form_text h1 {
+      font-size: 2rem;
     color: #4A6741;
     text-align: center;
     padding: 0;
@@ -38,7 +39,7 @@
 
  }
  .form_label{
-   color: #000; 
+   color:var(--color-brown); 
     font-size:20px;
     
  }

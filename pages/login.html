@@ -8,6 +8,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
     </style>
     <script src="/java.script/login.js"></script>
+    <script src="/java.script/nav-underline.js"></script>
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
@@ -15,15 +16,15 @@
     <header class="header">
         <div class="header-wrapper">
             <img class="header-logo" src="." alt="weCAMP logo">
-            <a class="header-title" href="../index.html">weCAMP</a>
+            <a class="header-title" href="/index.html">weCAMP</a>
         </div>
         <nav class="header-navbar">
-            <a class="navbar-link" href="./locations.html">Locations</a>
-            <a class="navbar-link" href="./pricing.html">Pricing</a>
-            <a class="navbar-link" href="./about.html">About</a>
-            <a class="navbar-link" href="./contacts.html">Contacts</a>
-            <a class="navbar-link login" href="./login.html">Login</a>
-            <a class="navbar-link signup" href="./sign-up.html">Sign Up</a>
+            <a class="navbar-link active" href="/pages/locations.html">Locations</a>
+            <a class="navbar-link" href="/pages/pricing.html">Pricing</a>
+            <a class="navbar-link" href="/pages/about.html">About</a>
+            <a class="navbar-link" href="/pages/contacts.html">Contacts</a>
+            <a class="navbar-link login" href="/pages/login.html">Login</a>
+            <a class="navbar-link signup" href="/pages/sign-up.html">Sign Up</a>
         </nav>
     </header>
 
@@ -50,7 +51,7 @@
 
     <!--LOGIN FORM-->
     <div class="form_box">
-        <form class=" login_form" id="login_form" name="login_form" onsubmit="login_form_upValidate()">
+        <form class=" login_form" id="login_form" name="login_form" >
             
             <div class="login_content">
                 <div class=" login_form_text">
@@ -60,7 +61,7 @@
             
                 <div class=" login_form_credential">
                     <label for="email" class="form_label"> E-mail</label>
-                    <input type="email" placeholder="Write here..." name="email" class="form_input" value="email"  required>
+                    <input type="email" placeholder="Write here..." name="email" class="form_input" id="email"  required>
                     
                 </div>
 
@@ -72,7 +73,7 @@
                 
                 <a href="" onclick="forgotpassword()">Forgot password?</a>
 
-                <button type="submit"  class="form_btn" value="submit"> Login </button>
+                <button type="submit"  class="form_btn" value="submit" onclick="login_form_Validate()"> Login </button>
 
                
                 <div class="login_form_link">

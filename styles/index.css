@@ -76,7 +76,7 @@
     padding: 30px 50px;
     color: #fff;
     text-decoration: 0;
-    font-weight: 800;
+    font-weight: bold;
 }
 
 .main-link-book {
@@ -94,9 +94,10 @@
 
 /* TOP SPOTS */
 .top-spots-title {
-    padding: 20px 0px 60px  ;
+    padding: 20px 0px 40px  ;
     margin: 0;
-    font-size: 50px;
+    font-size: 40px;
+    font-weight: bolder;
     color: white;
     background-color:var(--color-green) ;
 }
@@ -107,6 +108,11 @@
 }
 .top-card .top-parag, h2 {
     color: white;
+   
+}
+h2{
+    font-size: 30px;
+    font-weight: 500px;
 }
 .top-spots-wrapper {
     display: flex;

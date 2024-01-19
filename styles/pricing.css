@@ -2,7 +2,7 @@
 
 body{
   padding: 25px;
-  
+  color: var(--color-brown);
 
 }
 
@@ -22,13 +22,23 @@ h1{
 .subtitle{
   color: var(--color-green);
   font-weight:bolder;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  margin-bottom: 0px;
+  margin: auto;
 }
 /* mudar a cor do sobtítulo da secção tendas */
 .tents-subtitle{
   color: white;
   font-weight:bolder;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  margin-bottom: 0px;
+  margin-top: auto;
+}
+
+.tents-section-line{
+  border: 1px solid white;
+  width: 50rem;
+  text-align: center;
 }
 
 
@@ -36,6 +46,7 @@ h1{
   border: 1px solid var(--color-green);
   width: 50rem;
   text-align: center;
+ 
 }
 
 .services, .tents, .additions{
@@ -79,7 +90,7 @@ h1{
   margin-bottom: 30px;
 }
 .service-camping{
-  font-size: 1.2rem;
+  font-size:1.2rem;
 }
 
 .service-prices{

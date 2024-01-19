@@ -22,13 +22,14 @@
 
   .card_text {
     padding: 40px;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     color: #fff;
     background-color: var(--color-green);
   }
 
   .card_title {
     font-size: 30px;
+    font-weight: 450;
     padding: 10px;
     color: var(--color-green);
   }
@@ -37,7 +38,7 @@
   }
   .card_btn {
     color: var(--color-green);
-    font-size: 20px;
+    font-size:20px;
   }
 
 
