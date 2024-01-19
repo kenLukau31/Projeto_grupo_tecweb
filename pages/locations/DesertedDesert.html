@@ -52,9 +52,9 @@
     <section class="location-page">
         <div class="location-page-wrapper-links">
             <a href="/index.html">Home</a>
-            <svg xmlns="http://www.w3.org/2000/svg" height="20" width="12.5" viewBox="0 0 320 512"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="15" width="12.5" viewBox="0 0 320 512"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg>
             <a href="../locations.html">Locations</a>
-            <svg xmlns="http://www.w3.org/2000/svg" height="20" width="12.5" viewBox="0 0 320 512"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="15" width="12.5" viewBox="0 0 320 512"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg>
             <a href="">Ipsum River</a>
         </div>
         
@@ -89,7 +89,37 @@
                 </p>
                 <a href="../book.html">Start booking</a>
             </div> 
-        </div>   
+        </div> 
+        
+        <!-- Comment section -->
+        <h3 class="comment-section-heading">Comments:</h3>
+        <div class="comment-section">
+            <div class="old-comment">
+                <p class="old-comment-user">Nuno</p>
+                <p class="old-comment-text">
+                    Ut eget varius tortor. Quisque convallis lobortis arcu. Maecenas sit amet euismod dolor, sagittis porta!!! 
+                </p>
+            </div>
+            <div class="old-comment">
+                <p class="old-comment-user">Sandra</p>
+                <p class="old-comment-text">
+                    Duis pulvinar est tempor eros pharetra finibus? Duis interdum sem.
+                </p>
+            </div>
+            <div class="old-comment">
+                <p class="old-comment-user">Ken</p>
+                <p class="old-comment-text">
+                    Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+                </p>
+            </div>
+            <div id="comment-container"></div>
+            <form id="comment-form">
+                <h4 class="comment-form-heading">Insert a comment</h4>
+                <input type="text" id="com-username" placeholder="Write your name..." required>
+                <textarea id="user-comment" placeholder="Write your comment..." required></textarea>
+                <button type="submit" class="submit-comment-btn">Submit Comment</button>
+            </form>
+        </div>  
     </section>
     
 
@@ -132,6 +162,7 @@
         </div>
     </footer>
 
+    <script src="/java.script/comment-section.js"></script>
     <script src="/java.script/phone-navbar.js"></script>
 </body>
 </html>
