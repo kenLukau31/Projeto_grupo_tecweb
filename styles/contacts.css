@@ -11,17 +11,17 @@
     color: var(--color-brown);
     padding-bottom: 20px;
     margin-left: 0px;
-    margin-top: -30px; /*Para ter menos espaçamento entre o título e a borda do form*/
+    margin-top: -10px; /*Para ter menos espaçamento entre o título e a borda do form*/
     font-size: 2rem;
 }
 
 .tab h2{
-    padding-top: 50px;
-    font-size: 1.5rem;
+    padding-top: 80px;
+    font-size: 1.3rem;
 }
 
 label{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 input, textarea{
@@ -65,7 +65,7 @@ input, textarea{
 }
 
 .other_resources h3{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .other_resources h3:hover{
@@ -86,11 +86,11 @@ input, textarea{
 }
 
 .other_resources h4{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .other_resources span{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: bolder;
 }
 

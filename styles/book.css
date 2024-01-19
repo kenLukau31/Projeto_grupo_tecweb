@@ -105,9 +105,9 @@ form h4{
     font-size: 1.5rem;
 }
 
-/*TAB 3 - LOCALIZAÇÕES E TAB 4 - TENDAS E ADIÇÕES À TENDA*/
+/*TAB 3 - LOCALIZAÇÕES E TAB 4 - TENDAS E SERVIÇOS*/
 
-.grid-container{ /*USADA TAMBÉM PARA A TAB 4!*/
+.grid-container, .grid-container-services{ /*USADA TAMBÉM PARA A TAB 4!*/
     margin: 50px auto;
     gap: 20px;
     background-color: white;
@@ -120,9 +120,65 @@ form h4{
     width: 300px;
 }
 
-.form-check-label{
-    font-size: 1.5rem;
+.card-img{
+    width: 18.7rem;
+    height: 18.7rem;
+    margin-bottom: 10px; /*Para haver mais espaçamento entre a imagem e o texto */
 }
+
+.location-name, .tent-name{
+    display: block;
+    font-size: 1.5rem;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}
+
+.locations-radio, .tents-radio, .service-check{
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 25px 10px;
+}
+
+.tents-view-more{
+    background-color: var(--color-green);
+    border: 1px solid var(--color-green);
+    color: white;
+    margin: 20px 10px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.tents-view-more:hover{
+    background-color: white;
+    color: var(--color-green);
+}
+
+.card-services{
+    display: flex;
+    border: 2px solid var(--color-green);
+    width: 250px;
+}
+
+.card-icon{
+    width: 4rem;
+    height: 4rem;
+    margin: 10px 0; /* Menos espaçamento entre o icon e a borda da card*/
+}
+
+.card-services{
+    display: block;
+    text-align: center;
+}
+
+.service-price{
+    font-size: 1.2rem;
+}
+
+.service-check{
+    margin: 0 10px 10px auto;
+    transform: scale(1.2);
+}
+
 
 /*TAB 5 - FORMULÁRIO */
 .form-input{
@@ -130,12 +186,16 @@ form h4{
     border-radius: 10px;
 }
 
+.required-input::after{
+    content: "*";
+    color: rgb(255, 0, 0);
+}
 
 /*  MEDIA QUERIES */
 
 @media only screen and (max-width:768px){
 
-    .grid-container{
+    .grid-container, .grid-container-services{
         grid-template-columns: repeat(1, 1fr);
     }
 
