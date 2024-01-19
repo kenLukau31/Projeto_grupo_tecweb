@@ -9,6 +9,7 @@
 
 }
 
+
 #contact_form{
     width: 30%;
     margin: auto;
@@ -79,12 +80,12 @@ input, textarea{
     margin: 0px auto;
 }
 
+
 .other_resources h1{
     color: white;
     font-size: 2rem;
     margin: 0px;
     padding-bottom: 30px;
-  
 }
 
 .other_resources p{
