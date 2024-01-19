@@ -17,12 +17,20 @@ h1{
   flex-direction: column;
   text-align: center;
   align-items: center;
-}
-.title{
   
+}
+.subtitle{
+  color: var(--color-green);
   font-weight:bolder;
   font-size: 1.5rem;
 }
+/* mudar a cor do sobtítulo da secção tendas */
+.tents-subtitle{
+  color: white;
+  font-weight:bolder;
+  font-size: 1.5rem;
+}
+
 
 .section-line{
   border: 1px solid var(--color-green);
@@ -59,10 +67,17 @@ h1{
 
 .service-card{
   width: 12rem;
-  height: 17rem;
+  height: 15rem;
   border: 1px solid var(--color-green);
+  background-color: white;
 }
 
+.services{
+  
+  flex-wrap: wrap;
+  margin: auto;
+  margin-bottom: 30px;
+}
 .service-camping{
   font-size: 1.2rem;
 }
@@ -75,22 +90,45 @@ h1{
   background-color: var(--color-green);
   padding: 0rem 0.5rem 0.1rem 0.6rem; /*Para arredondar mais o botão */
   font-size: 2rem;
+  margin-top: 15px;
   text-align: center;
-  color: #eee;
+  color:white;
   border: none;
   border-radius: 10px;
   border: 2px solid var(--color-green);
 }
 
 .add-service:hover{
-  background-color:#eee;
+  background-color:white;
   color: var(--color-green);
 }
 
 /*TENDAS!!!!*/
 
+
+
 .tents{
+  display: flex;
+  flex-direction: column;
   gap: 2rem;
+  background-color: var(--color-green);
+  margin: auto;
+  margin-bottom: 30px;
+  
+}
+.tents-container{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 30px;
+  /* gap: 2rem; */
+}
+
+
+.tent-card{
+  background-color:white;
+  margin-bottom: 20px;
 }
 
 .tent-images{
@@ -126,17 +164,21 @@ h1{
 }
 
 .view-more-tents:hover{
-  background-color: #eee;
+  background-color: white;
   border: 2px solid var(--color-green);
   color: var(--color-green);
 }
 
 /* ADDITIONS!! */
-
+.additions{
+  flex-wrap: wrap;
+  margin: auto;
+}
 .additions-card{
   width: 12rem;
   height: 14rem;
   border: 1px solid var(--color-green);
+  background-color: white;
 }
 
 .addition-name{
@@ -150,13 +192,13 @@ h1{
   padding: 15px 0px;
   background-color: var(--color-green);
   border: 0;
-  color: #eee;
+  color: white;
   border: 2px solid var(--color-green);
   border-radius: 10px;
 }
 
 .view-more-additions:hover{
-  background-color: #eee;
+  background-color: white;
   color: var(--color-green);
 }
 
@@ -170,6 +212,11 @@ h1{
   .tent-images{
     width: 10rem;
     height: 10rem;
+  }
+
+  .tent-card{
+
+    width: 60%;
   }
   
   .additions-card{

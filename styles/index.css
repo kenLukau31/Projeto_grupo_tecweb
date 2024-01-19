@@ -88,21 +88,35 @@
     /* color: var(--color-green); */
     font-weight: 800;
     padding: 70px 100px;
-    background-color: #fff;
+    background-color: var(--color-brown);
+    color: white;
 }
 
 /* TOP SPOTS */
 .top-spots-title {
-    margin-top: 60px;
+    padding: 20px 0px 60px  ;
+    margin: 0;
     font-size: 50px;
-    color: var(--color-brown);
+    color: white;
+    background-color:var(--color-green) ;
+}
+.top-card p {
+
+    color:var(--color-brown);
+
+}
+.top-card .top-parag, h2 {
+    color: white;
 }
 .top-spots-wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    /* align-items: center; */
     flex-wrap: wrap;
-    width: 80%;
-    margin: 4rem auto;
+    width: 100%;
+    /* margin: 4rem auto; */
+    background-color:var(--color-green) ;
+    padding-bottom: 30px ;
 }
 
 .top-spot-img {
@@ -113,7 +127,7 @@
 }
 
 .top-more-details {
-    color: #4A6741;
+    color: white;
 }
 
 /*  SMALL ABOUT SECTION ON HOMEPAGE */
@@ -127,7 +141,7 @@
     padding: 3vw 8vw;
     line-height: 40px;
     font-size: 1.2rem;
-    background-color: var(--color-green);
+    
 }
 
 .about-img {
@@ -137,7 +151,6 @@
 }
 
 .homepage-about-text {
-    color: #fff;
     font-weight: 500;
     margin-top: -50px;
     padding: 10px 10px;
@@ -147,27 +160,30 @@
 .homepage-about-p{
     margin: 0;
     padding-bottom: 20px;
+    color:var(--color-brown) ;
     
 }
 
 .btn-our-story {
-    color: var(--color-brown);
+    color: white;
     padding: 10px 60px;
     border-radius: 30px;
     font-size: 16px;
     font-weight: 800;
-    background-color: #fff;
+    background-color: var(--color-green);
 }
 
 /* REVIEWS */
 
 .reviews {
     display: flex;
-    margin: auto;
+    /* margin: auto; */
     justify-content: space-between;
-    margin: 4rem auto;
-    width: 70%;
+    /* margin: 4rem auto; */
+    width: 100%;
     gap: 50px;
+    background-color:var(--color-brown);
+    padding: 5rem;
 }
 
 .card-img-top {
@@ -178,8 +194,8 @@
 /* GALLERY */
 
 .gallery {
-    background-color: #fff;
-    margin-top: 5rem;
+    background-color:white;
+    /* margin-top: 5rem; */
     padding: 3rem;
 }
 

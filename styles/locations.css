@@ -3,16 +3,19 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 50px;
     width: 90%;
-    margin: 0 auto;
+    margin: 40px auto;
+    
   }
 
   .locations-grid-card {
     border: 1px solid var(--color-green);
-    margin: 10%;
+    border-radius: 10px;
+    margin: 5%;
     width: fit-content;
   }
 
   .card-image {
+    border-radius: 10px;
     margin: 20px;
     width: 250px;
   }
@@ -29,7 +32,9 @@
     padding: 10px;
     color: var(--color-green);
   }
-
+  .card_body{
+    padding-bottom: 20px;
+  }
   .card_btn {
     color: var(--color-green);
     font-size: 20px;
@@ -42,6 +47,9 @@
   
   .carousel.slide {
     display: none;
+  }
+  .locations-grid-container {
+    margin: 20% auto;
   }
   
 }
