@@ -13,11 +13,6 @@ header {
     padding:25px;
 }
 
-.navbar-link:active ,.header-navbar a:hover {
-  text-decoration: underline;
-  color: var(--color-brown);
-  
-}
 
 .header-wrapper, .header-navbar {
     display: flex;
