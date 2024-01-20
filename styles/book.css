@@ -132,6 +132,7 @@ h1{
 }
 
 .location-name, .tent-name{
+    color: black;
     display: block;
     font-size: 1.5rem;
     padding: 10px 10px;
@@ -175,6 +176,10 @@ h1{
     text-align: center;
 }
 
+.service-name{
+    color: black;
+}
+
 .service-price{
     font-size: 1.2rem;
 }
@@ -194,6 +199,10 @@ h1{
 .required-input::after{
     content: "*";
     color: rgb(255, 0, 0);
+}
+
+.col label, .required-input{
+    color: black;
 }
 
 /*  MEDIA QUERIES */
