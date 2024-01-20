@@ -83,6 +83,10 @@ h1{
   background-color: white;
 }
 
+.serveces-div{
+  margin-top: 80px;
+}
+
 .services{
   
   flex-wrap: wrap;
@@ -163,7 +167,7 @@ h1{
 }
 
 .view-more-tents{
-  padding: 15px 70px;
+  
   font-size: 1.3rem;
   font-weight: 200;
   color: white;
