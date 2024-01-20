@@ -103,7 +103,7 @@ h1{
 
 .add-service{
   background-color: var(--color-green);
-  padding: 0rem 0.5rem 0.1rem 0.6rem; /*Para arredondar mais o botão */
+  padding: 0rem 0.6rem 0.1rem 0.6rem; /*Para arredondar mais o botão */
   font-size: 2rem;
   margin-top: 15px;
   text-align: center;
@@ -119,8 +119,6 @@ h1{
 }
 
 /*TENDAS!!!!*/
-
-
 
 .tents{
   display: flex;
@@ -172,10 +170,10 @@ h1{
   font-weight: 200;
   color: white;
   background-color: var(--color-green);
-  border: none;
   border-radius: 10px;
   margin-top: 20px;
-  
+  border: 2px solid var(--color-green);
+  padding: 5px;
 }
 
 .view-more-tents:hover{
