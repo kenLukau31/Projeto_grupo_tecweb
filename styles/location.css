@@ -45,7 +45,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: -30px;
+    margin-top: -15px;
    
 }
 .location-page-details{
@@ -102,10 +102,19 @@
     width: fit-content;
     font-size: 1.2rem;
     margin-bottom: 20px;
-    padding: 10px 20px;
+    
     background-color: #eee;
     border-radius: 15px;
 }
+
+.old-comment {
+    padding: 10px 20px 1px 20px;
+}
+
+.comment-container {
+    padding: 10px 20px 16px 20px;
+}
+
 
 .old-comment-user {
     font-weight: 700;
@@ -119,6 +128,7 @@
     font-size: 1.3rem;
     padding: 20px 0 10px 0;
     color: #4A6741;
+    text-align: left;
 }
 
 #com-username, #user-comment {
@@ -176,6 +186,10 @@
     .comment-section {
         width: 100%;
         padding: 10px;
+    }
+    
+    .comment-section-heading {
+        padding: 0 10px;
     }
 
     #com-username{

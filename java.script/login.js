@@ -3,7 +3,6 @@ function login_form_Validate() {
     let email = document.getElementById("email").value; 
     // msg de alerta
     window.alert("Bem vindo(a)! \nEmail: " + email);
-    
 }
 
 function forgotpassword() {
@@ -15,9 +14,7 @@ function forgotpassword() {
     // se não for entroduzido nenhum endereço de email no input 
     else{
         window.alert("Insira o seu E-mail para que possamos enviar-lhe um link de revalidação ")
-
-    }
-    
+    } 
 }
 
 

@@ -14,7 +14,7 @@
     <!-- NAVBAR -->
     <header class="header">
         <div class="header-wrapper">
-            <img class="header-logo" src="." alt="weCAMP logo">
+            <img class="header-logo" src="/assets/logo.png" alt="weCAMP logo">
             <a class="header-title" href="../index.html">weCAMP</a>
         </div>
         <nav class="header-navbar">
@@ -49,23 +49,31 @@
     </div>
 
     <main class="book-page">
-        <form action="" class="needs-validation" id="book_now_form">
+        <form action="" class="needs-validation" id="book-form" method="get" onsubmit="return nextPrev(1)">
             <h1>Book Now!</h1>
             <!--Primeira Tab-->
             <div class="tab">
                 <h2>Step 1</h2>
-                <h3>- How many people are going?</h3>
-                <label for="adults" class="tab1_labels">How many adults?</label><input type="number" name="adults" value="0" id="adults" min="0" max = '8'><br><h6 class="age_intervals">Above the age of 13</h6>
-                <label for="children" class="tab1_labels">How many children?</label><input type="number" name="children" value="0" id="children" min="0" max="8"><br><h6 class="age_intervals">Between 2-13 years old</h6>
-                <label for="infants" class="tab1_labels">How many infants?</label><input type="number" name="infants" value="0" id="infants" min="0" max="8"><h6 class="age_intervals">Below 2 years old</h6>
+                <h3>How many people are going?</h3>
+                <label for="adults" class="tab1_labels">How many adults?</label>
+                    <input type="number" name="adults" value="0" id="adults" min="0" max = '8'>
+                    <br><h6 class="age_intervals">Above the age of 18</h6>
+                <label for="children" class="tab1_labels">How many children?</label>
+                    <input type="number" name="children" value="0" id="children" min="0" max="8">
+                    <br><h6 class="age_intervals">Between 2-18 years old</h6>
+                <label for="infants" class="tab1_labels">How many infants?</label>
+                    <input type="number" name="infants" value="0" id="infants" min="0" max="8">
+                    <br><h6 class="age_intervals">Below 2 years old</h6>
             </div>
 
             <!--Segunda Tab-->
             <div class="tab">
                 <h2>Step 2</h2>
                 <h3>When are you planning your vacation?</h3>
-                <label for="start_date" class="tab2_labels">From:  </label><input type="date" id="start_date"><br>
-                <label for="end_date" class="tab2_labels">To:  </label><input type="date" id="end_date">
+                <label for="start_date" class="tab2_labels">From:  </label>
+                <input type="date" id="start_date"><br>
+                <label for="end_date" class="tab2_labels">To:  </label>
+                <input type="date" id="end_date">
             </div>
 
             <!--Terceira Tab-->
@@ -92,7 +100,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <img src="/assets/location/locations1.png" alt="It's the image of the third camp!" class="card-img">
+                        <img src="/assets/jack-sloop-qelGaL2OLyE-unsplash.jpg" alt="It's the image of the third camp!" class="card-img">
                         <div class="card-body">
                             <div class="form-check">
                                 <label for="location3" class = 'location-name'>Location 3</label>
@@ -141,7 +149,7 @@
                         <div class="card-body">
                             <div class="form-check">
                                 <label for="tent1" class = 'tent-name'>Classic Tent</label>
-                                <a href="./pricing.html" class="tents-view-more">View More</a>
+                                <a href="./pricing.html" class="tents-view-more" target="_blank">View More</a>
                                 <input type="radio" name="optradio" class = 'tents-radio' id="tent1">
                             </div>
                         </div>
@@ -151,7 +159,7 @@
                         <div class="card-body">
                             <div class="form-check">
                                 <label for="tent2" class = 'tent-name'>Deluxe Tent - 2 Beds</label>
-                                <a href="./pricing.html" class="tents-view-more">View More</a>
+                                <a href="./pricing.html" class="tents-view-more"  target="_blank">View More</a>
                                 <input type="radio" name="optradio" class = 'tents-radio' id="tent2">
                             </div>
                         </div>
@@ -161,7 +169,7 @@
                         <div class="card-body">
                             <div class="form-check" >
                                 <label for="tent3" class = 'tent-name'>Deluxe Tent - 4 Beds</label>
-                                <a href="./pricing.html" class="tents-view-more">View More</a>
+                                <a href="./pricing.html" class="tents-view-more"  target="_blank">View More</a>
                                 <input type="radio" name="optradio" class = 'tents-radio' id="tent3">
                             </div>
                         </div>

@@ -1,4 +1,3 @@
-
 function sign_form_upValidate(){
     // aceder ao valor dos elementos html com id="Fname" e "Lname"
     let Fname = document.getElementById('Fname').value;

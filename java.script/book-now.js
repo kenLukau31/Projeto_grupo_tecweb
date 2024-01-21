@@ -38,6 +38,8 @@ function nextPrev(numTab){
     if (current_tab >= tab.length){
         //O formulário é submetido
         document.getElementById('book-form').submit();
+        window.alert('Booking Successful!');
+        window.location.href = '/pages/book.html';
         return false;
     }
     //Senão, vai chamar a função "show_tab" para mostrar a seguinte tab 

@@ -24,3 +24,9 @@ footer, .footer-nav, .footer-social {
 .footer-svg-wrapper a {
     padding: 15px;
 }
+
+footer h4 {
+    font-size: 1.3rem;
+    color: var(--color-brown);
+    font-weight: 500;
+}

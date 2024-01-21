@@ -1,4 +1,3 @@
-
 let comments = [];
 
 //Função para adicionar um comentário
@@ -23,10 +22,10 @@ function show_comments() {
     const comment_container = document.getElementById('comment-container'); //obter a div para mostrar o comment
     comment_container.innerHTML = ''; //modificar a div no html para uma string vazia
 
-    comments.forEach(comment => { //loop que vai iterar cada elemento em comments, e que vai executar para cada um a seguinte função
-        const comment_element = document.createElement('div'); //criar uma nova div no html para mostrar o novo comentário
+    comments.forEach(comment => { //loop que vai iterar cada elemento em comments, e que vai executar para cada um as próximas linhas
+        const comment_element = document.createElement('div'); //criar uma nova div no html para mostrar um novo comentário
         comment_element.classList.add('comment-container'); //atribuir uma classe á div
-        comment_element.innerHTML = `<strong>${comment.com_username}</strong><br>${comment.comment}`; //inserir o conteúdo na div nova
+        comment_element.innerHTML = `<strong>${comment.com_username}</strong><br>${comment.comment}`; //inserir o conteúdo na div nova, username em bold
         comment_container.appendChild(comment_element); //adicionar o novo comment á div existente
     });
 }
