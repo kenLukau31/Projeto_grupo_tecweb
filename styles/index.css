@@ -1,15 +1,11 @@
 /* MAIN */
 
-.main {
-    height: 1000px;
-}
-
 .main-p {
     color: var(--color-green);
     font-size: 22px;
     padding: 0 20px;
-    margin: 30px 0;
-    font-weight: bold;
+    margin: 30px auto;
+    font-weight: 450;
 }
 
 .main-wrapper {
@@ -50,11 +46,11 @@
 }
 
 .main-book-text {
-    font-weight:400px;
+    font-weight: 700;
     font-size: 14px;
     line-height: 30px;
     margin: 20px auto 0 auto;
-    padding: 0 20px;
+    padding: 0 40px;
     color: var(--color-brown);
 }
 
@@ -76,51 +72,38 @@
     padding: 30px 50px;
     color: #fff;
     text-decoration: 0;
-    font-weight:normal;
-}
-
-.main-link-book {
-    color: #fff;
+    font-weight: 400;
 }
 
 .main-link-paragraph {
     margin-top: 50px;
-    /* color: var(--color-green); */
-    font-weight: normal;
-    padding: 70px 100px;
+    font-weight: 400;
+    padding: 70px 150px;
     background-color: var(--color-brown);
     color: white;
+    font-size: 20px;
 }
 
 /* TOP SPOTS */
 .top-spots-title {
-    padding: 20px 0px 40px  ;
-    margin: 0;
-    font-size: 40px;
-    font-weight: bolder;
-    color: white;
-    background-color:var(--color-green) ;
+    padding-top: 3rem;
+    font-size: 80px;
+    color: #4A6741;
+    font-weight: 300;
 }
-.top-card p {
 
-    color:var(--color-brown);
-
+.top-card {
+    padding-top: 40px;
 }
+
 .top-card .top-parag, h2 {
     color: white;
-   
-}
-h2{
-    font-size: 30px;
-    font-weight: 500px;
 }
 .top-spots-wrapper {
     display: flex;
     justify-content: space-around;
-    /* align-items: center; */
     flex-wrap: wrap;
     width: 100%;
-    /* margin: 4rem auto; */
     background-color:var(--color-green) ;
     padding-bottom: 30px ;
 }
@@ -147,7 +130,6 @@ h2{
     padding: 3vw 8vw;
     line-height: 40px;
     font-size: 1.2rem;
-    
 }
 
 .about-img {
@@ -157,9 +139,9 @@ h2{
 }
 
 .homepage-about-text {
-    font-weight: normal;
+    font-weight: 500;
     margin-top: -50px;
-    padding: 10px 10px;
+    padding: 30px;
     border-radius: 30px;
 }
 
@@ -175,7 +157,7 @@ h2{
     padding: 10px 60px;
     border-radius: 30px;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 800;
     background-color: var(--color-green);
 }
 
@@ -201,14 +183,13 @@ h2{
 
 .gallery {
     background-color:white;
-    /* margin-top: 5rem; */
-    padding: 3rem;
+    padding: 0 25px 50px 25px;
 }
 
 .gallery-title {
     color: var(--color-green);
-    font-weight: 800;
-    padding-bottom: 50px;
+    font-weight: 500;
+    padding: 90px;
 }
 
 .gallery-wrapper {
@@ -216,6 +197,7 @@ h2{
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
     place-items: center;
     gap: 40px;
+    padding: 0;
 }
 .gallery-card-img {
     width: 300px;
@@ -265,12 +247,13 @@ h2{
         color: var(--color-green);
     }
 
-
+    
     .top-spots {
-        margin-top: 57rem;
+        margin-top: 6rem;
     }
     .top-spots-title{
-        margin-top: -30px;
+        margin-top: -35px;
+        font-size: 4rem;
     }
     .top-spots-wrapper{
         width: 100%;
@@ -297,15 +280,15 @@ h2{
         border-radius: 30px;
     }
     .homepage-about-text{
-        margin-top: -80px;
-        color: #fff;
-        background-color: var(--color-brown);
+        background-color: #fff;
         height: fit-content;
         padding-bottom: 30px;
         margin-bottom: 20px;
     }
     .homepage-about-p {
+        color: var(--color-brown);
         padding-bottom: 20px;
+        margin-top: -40px;
     }
     .btn-our-story{
         color: #eee;

@@ -26,7 +26,7 @@ function show_comments() {
     comments.forEach(comment => { //loop que vai iterar cada elemento em comments, e que vai executar para cada um a seguinte função
         const comment_element = document.createElement('div'); //criar uma nova div no html para mostrar o novo comentário
         comment_element.classList.add('comment-container'); //atribuir uma classe á div
-        comment_element.innerHTML = `<strong>${comment.com_username}</strong><br><br>${comment.comment}`; //inserir o conteúdo na div nova
+        comment_element.innerHTML = `<strong>${comment.com_username}</strong><br>${comment.comment}`; //inserir o conteúdo na div nova
         comment_container.appendChild(comment_element); //adicionar o novo comment á div existente
     });
 }

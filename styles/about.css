@@ -1,21 +1,31 @@
 .about-body{
-    background-color: #fff;
-    padding: 50px 120px;
-    flex-direction: row;
-    align-items: center;
-    gap: 100px;
-    padding: 3vw 8vw;
-    line-height: 40px;
-    font-size: 1.2rem;
-    font-weight: normal;
-    background-color: #fff;
+  background-color: #fff;
+  padding: 50px 120px;
+  flex-direction: row;
+  align-items: center;
+  gap: 100px;
+  padding: 3vw 8vw;
+  line-height: 40px;
+  font-size: 1.2rem;
+  background-color: #fff;
+}
+
+.about-body-heading {
+  font-size: 3rem;
+  font-weight: 400;
+  padding: 40px 0;
+  color: var(--color-brown);
+}
+
+/*  MEDIA QUERIES */
+
+@media only screen and (max-width:768px){
+
+  .about-body{
+    margin-top: 60px;
   }
 
   .about-body-heading {
     font-size: 2rem;
-    font-weight: 800;
-    margin-top: 40px;
-    padding: 40px 0;
-    color: var(--color-brown);
   }
-  
+}

@@ -1,16 +1,12 @@
-/*GERAL*/
-
-body{
-  padding: 25px;
-  color: var(--color-brown);
-
+body {
+  overflow-x:hidden;
 }
 
-h1{
-  font-size:3rem;
+.subtitle{
+  font-size:2rem;
   font-weight:bolder;
   color: var(--color-green);
-  padding-bottom: 70px; /*Para haver mais espaçamento entre o título da página e o resto do contéudo da página*/
+  margin-top: -30px;
 }
 .section-descripcion{
   display: flex;
@@ -19,20 +15,18 @@ h1{
   align-items: center;
   
 }
-.subtitle{
+.adittions-subtitle{
   color: var(--color-green);
   font-weight:bolder;
   font-size: 2rem;
-  margin-bottom: 0px;
-  margin: auto;
+  margin-top: 30px;
 }
-/* mudar a cor do sobtítulo da secção tendas */
+/* mudar a cor do subtítulo da secção tendas */
 .tents-subtitle{
   color: white;
-  font-weight:bolder;
-  font-size: 2rem;
-  margin-bottom: 0px;
-  margin-top: auto;
+  font-weight:400;
+  font-size: 1.6rem;
+  margin: 10px auto;
 }
 
 .tents-section-line{
@@ -135,7 +129,6 @@ h1{
   flex-wrap: wrap;
   justify-content: space-around;
   padding-bottom: 30px;
-  /* gap: 2rem; */
 }
 
 
@@ -165,7 +158,6 @@ h1{
 }
 
 .view-more-tents{
-  
   font-size: 1.3rem;
   font-weight: 200;
   color: white;
@@ -186,6 +178,7 @@ h1{
 .additions{
   flex-wrap: wrap;
   margin: auto;
+  margin-bottom: 100px;
 }
 .additions-card{
   width: 12rem;
@@ -218,6 +211,11 @@ h1{
 /*   MEDIA QUERIES    */
 
 @media only screen and (max-width: 768px){
+  
+  .subtitle{
+    margin-top: 10px;
+  }
+
   .services, .additions{
     gap: 20px;
   }
@@ -228,7 +226,6 @@ h1{
   }
 
   .tent-card{
-
     width: 60%;
   }
   

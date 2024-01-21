@@ -1,115 +1,118 @@
 
 header {
-    color: var(--color-brown);
-    font-size: 18px;
-      
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 30px;
-    
-    width: 80%;
-    margin: auto;
-    padding:25px;
+  color: var(--color-brown);
+  font-size: 18px;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 80%;
+  margin: auto;
 }
 
 
 .header-wrapper, .header-navbar {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
 }
 
 .header-logo {
-    width: 50px;
+  width: 50px;
 }
 
 .header-title {
-    color: var(--color-brown);
-    font-size: 2rem;
-    font-weight: 800;
+  color: var(--color-brown);
+  font-size: 2rem;
+  font-weight: 450;
 }
 
 .navbar-link {
-    color: var(--color-green);
+  font-size: 18px;
+  color: var(--color-green);
+  font-weight: 410;
+}
+.navbar-link:hover {
+  text-decoration: underline;
 }
 
 .navbar-link.login {
-    color: var(--color-green);
-    border: 1px solid var(--color-green);
-    padding: 10px 20px;
-    border-radius: 8px;
+  color: var(--color-green);
+  border: 1px solid var(--color-green);
+  padding: 10px 20px;
+  border-radius: 8px;
 }
 
 .navbar-link.signup {
-    color: #fff;
-    background-color: var(--color-green);
-    padding: 10px 20px;
-    border-radius: 8px;
+  color: #fff;
+  background-color: var(--color-green);
+  padding: 10px 20px;
+  border-radius: 8px;
 }
 
 .phone{
-    display: none;
+  display: none;
 }
 
 @media only screen and (max-width: 768px) {
-    .header{
-        display: none;
+  .header{
+      display: none;
+  }
+  
+  .phone{
+      display: block;
+      position: fixed;
+      width: 95%;
+      z-index: 1;
+      font-family: 'Roboto', sans-serif;
+      top:0;
+  }
+
+  .phone-container {
+      width: 106%;
+      /* margin: auto; */
+      /* margin-top:100px; */
+      background-color: var(--color-green);
     }
     
-    .phone{
-        display: block;
-        position: fixed;
-        width: 95%;
-        z-index: 1;
-        font-family: 'Roboto', sans-serif;
-        top:0;
+  .top-nav {
+    overflow: hidden;
+    background-color: var(--color-green);
+    position: relative;
     }
+    
+  .top-nav #phone-links {
+    display: none;
+    background-color: #ccc;
+  }
 
-    .phone-container {
-        width: 106%;
-        /* margin: auto; */
-        /* margin-top:100px; */
-        background-color: var(--color-green);
-      }
-      
-    .top-nav {
-      overflow: hidden;
-      background-color: var(--color-green);
-      position: relative;
-      }
-      
-    .top-nav #phone-links {
-      display: none;
-      background-color: #ccc;
-    }
+  .top-nav a {
+    color: var(--color-green);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
 
-    .top-nav a {
-      color: var(--color-green);
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px;
-      display: block;
-    }
-
-    .top-nav .logo {
-      color: #fff;
-    }
-      
-    .top-nav a.icon {
-      padding:14px 20px;
-      background: #ccc;
-      display: block;
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-      
-    .logo {
-      background-color: var(--color-green);
-      color: white;
-    }
+  .top-nav .logo {
+    color: #fff;
+  }
+    
+  .top-nav a.icon {
+    padding:14px 20px;
+    background: #ccc;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+    
+  .logo {
+    background-color: var(--color-green);
+    color: white;
+  }
 
 
 }
